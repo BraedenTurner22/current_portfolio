@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #0b092b;
+  --light-orange: #faefde;
+  --main-orange: #f6ad55;
+}
+
+.icon-svg {
+  color: var(--light-orange);
+  transition: color 0.3s ease;
+}
+
+.classes-taken {
+  color: var(--light-orange);
+  background-color: var(--main-orange);
+}
+
+/* Hover state for the icons */
+.icon-svg:hover {
+  color: var(--main-orange); /* Change to hover color */
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --breakpoint-3xl: 2000px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Star animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+}
+
+/* The .star class starts with hidden stars (opacity: 0). 
+   It will run a fadeIn animation that lasts 1s and then
+   the twinkle animation, whose timing is controlled via CSS variables.
+*/
+.star {
+  opacity: 0;
+  animation: fadeIn 3s forwards,
+    twinkle var(--twinkle-duration, 2s) infinite ease-in-out;
+  /* fadeIn starts immediately (0s delay) while twinkle uses the provided delay */
+  animation-delay: 0s, var(--twinkle-delay, 1s);
+}
