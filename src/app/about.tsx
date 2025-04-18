@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Cursor from "@/styles/cursor";
 
 const About = () => {
   return (
@@ -29,7 +30,7 @@ const About = () => {
           using it as a creative medium for other interests.
           <br />
           <br />
-          While I'm still exploring what fascinates me most, I've developed an
+          While I'm still exploring what excites me most, I've developed an
           interest in health sensing devices and ML driven data analytics for
           improving physical and/or mental health. Finding the intersection
           between technology and personal health is both fascinating and
@@ -37,11 +38,13 @@ const About = () => {
           <br />
           <br />
           If I am not programming, you'll probably catch me hiking (Colorado
-          native!), playing soccer, or cooking. Feel free to check out my
-          recipes{" "}
+          native!), juggling a soccer ball, playing poker, or cooking up a
+          storm. Feel free to check out my recipes{" "}
           <a
             href="https://www.youtube.com/@BraedenChefs"
             className="text-orange-300 underline"
+            target="#"
+            rel="noopener noreferrer"
           >
             here
           </a>

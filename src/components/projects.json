@@ -1,10 +1,47 @@
 {
   "projects": {
+    "poker_game_engine": {
+      "title": "Poker Game Engine",
+      "image_url": "/projects/Poker_Table.png",
+      "description": "Currently designing an entire poker engine in Java. Plan to implement frontend and Postgresql database for live, interactive gameplay.",
+      "date": "2025",
+      "tools": ["Java", "Spring Boot"],
+      "github_url": "https://github.com/BraedenTurner22/Poker.git"
+    },
     "uhelp": {
-      "title": "UHelp",
-      "image_url": "",
-      "description": "",
-      "tools": [""]
+      "title": "UHelp (HackUMass XII)",
+      "image_url": "/projects/UHelp.png",
+      "description": "A fine-tuned LLM providing specific mental health resources at UMass from user queries. I focused on web design and image-to-text functionality.",
+      "date": "2024",
+      "tools": ["Python", "Cohere LLM", "Flask", "OpenCV"],
+      "github_url": "https://github.com/BraedenTurner22/UHelp.git",
+      "project_url": "https://uhelp.tech/"
+    },
+    "blackjack_cardcounter": {
+      "title": "Blackjack Card Counter",
+      "image_url": "/projects/Blackjack_CC.png",
+      "description": "A YOLOv8 computer vision trained to detect playing cards. Updates live count with associated card count (+1/0/-1), informing the user when they have a statistical advantage.",
+      "date": "2024",
+      "tools": ["Python", "TensorFlow", "YOLOv8", "OpenCV"],
+      "github_url": "https://github.com/BraedenTurner22/blackjack_card_counter.git"
+    },
+    "build_website": {
+      "title": "BUILD UMass Website",
+      "image_url": "/projects/BUILD_Website.png",
+      "description": "Website developer for UMass's premier software club. I personally did a lot of codebase refactoring by removing obsolete code, standardized dependencies, and improving readability.",
+      "date": "2024",
+      "tools": ["React", "Next.js", "Javascript", "Git"],
+      "github_url": "https://github.com/build-umass/BUILD-Website",
+      "project_url": "https://buildumass.com/"
+    },
+    "personal_portfolio": {
+      "title": "Personal Portfolio",
+      "image_url": "/projects/Personal_Portfolio.png",
+      "description": "An updated version of my personal website. Originally, I had a dynamic display of my cooking videos on YouTube, but I got tired of Heroku Dynos fees.",
+      "date": "2025",
+      "tools": ["Typescript", "Next.js", "HTML/CSS", "Vercel"],
+      "github_url": "https://github.com/BraedenTurner22/current_portfolio.git",
+      "project_url": "https://braedenturner.com/"
     }
   }
 }
