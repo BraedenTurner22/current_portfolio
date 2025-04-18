@@ -8,7 +8,6 @@ export default function Cursor() {
   const [hovered, setHovered] = useState(false);
   const [visible, setVisible] = useState(false);
 
-  // 1) Track real mouse movement, enter, and leave
   useEffect(() => {
     const onMouseMove = (e: MouseEvent) => {
       setMousePos({ x: e.clientX, y: e.clientY });
@@ -22,50 +21,48 @@ export default function Cursor() {
       }
     };
 
-    const onMouseLeave = () => {
-      setVisible(false);
+    const onMouseLeave = () => setVisible(false);
+    const onDocMouseOut = (e: MouseEvent) => {
+      if (!(e.relatedTarget || (e as any).toElement)) setVisible(false);
     };
 
     window.addEventListener("mousemove", onMouseMove);
     window.addEventListener("mouseleave", onMouseLeave);
-    // Some browsers fire “mouseout” on document when you leave the viewport:
-    document.addEventListener("mouseout", (e) => {
-      if (!(e.relatedTarget || (e as any).toElement)) {
-        setVisible(false);
-      }
-    });
+    document.addEventListener("mouseout", onDocMouseOut);
 
     return () => {
       window.removeEventListener("mousemove", onMouseMove);
       window.removeEventListener("mouseleave", onMouseLeave);
-      document.removeEventListener("mouseout", () => {});
+      document.removeEventListener("mouseout", onDocMouseOut);
     };
   }, []);
 
-  // 2) Smooth animation loop
   useEffect(() => {
-    let rafId: number;
+    let frame: number;
     const animate = () => {
       setDisplayPos(({ x, y }) => ({
         x: x + (mousePos.x - x) * 0.15,
         y: y + (mousePos.y - y) * 0.15,
       }));
-      rafId = requestAnimationFrame(animate);
+      frame = requestAnimationFrame(animate);
     };
     animate();
-    return () => cancelAnimationFrame(rafId);
+    return () => cancelAnimationFrame(frame);
   }, [mousePos]);
 
-  // 3) Render: hide cursor when either it’s “hovered” (pointer) or truly invisible
   return (
     <div
       className={`
         fixed pointer-events-none z-50
         transform -translate-x-1/2 -translate-y-1/2
-        transition-transform ease-out duration-[200ms]
-        transition-opacity duration-200
-        bg-orange-300/50
-        ${hovered || !visible ? "opacity-0" : "opacity-100 scale-100"}
+        transition-transform ease-out duration-500
+        transition-opacity duration-500 bg-orange-300/50
+
+        /* opacity: hide when off-screen */
+        ${visible ? "opacity-100" : "opacity-0"}
+
+        /* scale: shrink when hovering a pointer */
+        ${hovered ? "scale-0" : "scale-100"}
       `}
       style={{
         left: displayPos.x,

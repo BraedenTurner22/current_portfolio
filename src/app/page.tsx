@@ -1,8 +1,9 @@
 import React from "react";
+import Cursor from "@/styles/cursor";
 import Mountains from "./mountains";
 import About from "./about";
 import Projects from "./projects";
-import Cursor from "@/styles/cursor";
+import Experiences from "./experiences";
 
 export default function EntirePage() {
   return (
@@ -11,6 +12,7 @@ export default function EntirePage() {
       <Mountains />
       <About />
       <Projects />
+      <Experiences />
     </main>
   );
 }

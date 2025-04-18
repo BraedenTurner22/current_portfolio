@@ -28,7 +28,7 @@
     "build_website": {
       "title": "BUILD UMass Website",
       "image_url": "/projects/BUILD_Website.png",
-      "description": "Website developer for UMass's premier software club. I personally did a lot of codebase refactoring by removing obsolete code, standardized dependencies, and improving readability.",
+      "description": "Website developer for UMass's pro bono software club. Personally did a lot of codebase refactoring by removing obsolete code, standardizing dependencies, and improving UI.",
       "date": "2024",
       "tools": ["React", "Next.js", "Javascript", "Git"],
       "github_url": "https://github.com/build-umass/BUILD-Website",

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Cursor from "@/styles/cursor";
 
 const About = () => {
   return (

@@ -12,7 +12,7 @@ const Projects = () => {
     date: string;
     tools: string[];
     github_url: string;
-    project_url?: string; // ⬅️ optional
+    project_url?: string;
   };
 
   const projects: Project[] = Object.values(projectsData.projects);
