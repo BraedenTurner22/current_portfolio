@@ -66,7 +66,7 @@ const Mountains = () => {
             <li className="p-2 icon-svg">
               <a
                 href="https://www.linkedin.com/in/braedenturner/"
-                target="#"
+                target="_top"
                 rel="noopener noreferrer"
               >
                 LinkedIn
@@ -75,7 +75,7 @@ const Mountains = () => {
             <li className="p-2 icon-svg">
               <a
                 href="https://github.com/BraedenTurner22"
-                target="#"
+                target="_top"
                 rel="noopener noreferrer"
               >
                 GitHub
@@ -84,7 +84,7 @@ const Mountains = () => {
             <li className="p-2 icon-svg">
               <a
                 href="https://www.youtube.com/@BraedenChefs"
-                target="#"
+                target="_top"
                 rel="noopener noreferrer"
               >
                 YouTube
@@ -93,7 +93,7 @@ const Mountains = () => {
             <li className="p-2 icon-svg">
               <a
                 href="mailto:braedenturner22@gmail.com"
-                target="#"
+                target="_top"
                 rel="noopener noreferrer"
               >
                 Mail
