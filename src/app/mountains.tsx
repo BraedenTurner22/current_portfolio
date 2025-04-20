@@ -61,7 +61,7 @@ const Mountains = () => {
               : "opacity-0 -translate-y-2 pointer-events-none"
           }`}
         >
-          <ul className="md:hidden flex flex-col w-full bg-gradient-to-t from-blue-900 to-black rounded-lg text-center font-serif">
+          <ul className="md:hidden flex flex-col w-full bg-gradient-to-b from-black to-background rounded-lg text-center font-serif">
             <li className="p-2 icon-svg">Resume</li>
             <li className="p-2 icon-svg">
               <a
