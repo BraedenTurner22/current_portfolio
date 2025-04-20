@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import "../styles/globals.css";
 export const metadata: Metadata = {
-  title: "Braeden's Personal Portfolio",
-  description: "A portfolio website for Braeden Turner",
+  title: "Braeden Turner's Personal Portfolio",
+  description: "A wonderful website!",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
