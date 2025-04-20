@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Braeden Turner's Personal Portfolio",
   description: "A wonderful website!",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/icon.ico",
   },
 };
 
