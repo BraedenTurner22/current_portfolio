@@ -62,7 +62,24 @@ const Mountains = () => {
           }`}
         >
           <ul className="md:hidden flex flex-col w-full bg-gradient-to-b from-black to-background rounded-lg text-center font-serif">
-            <li className="p-2 icon-svg">Resume</li>
+            <li className="p-2 icon-svg">
+              <a
+                href="https://drive.google.com/file/d/1D2MaomzHxMg6LV5T4SH9b0gkToOInnOX/view?usp=sharing"
+                target="_top"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
+            </li>
+            <li className="p-2 icon-svg">
+              <a
+                href="mailto:braedenturner22@gmail.com"
+                target="_top"
+                rel="noopener noreferrer"
+              >
+                Email
+              </a>
+            </li>
             <li className="p-2 icon-svg">
               <a
                 href="https://www.linkedin.com/in/braedenturner/"
@@ -90,21 +107,20 @@ const Mountains = () => {
                 YouTube
               </a>
             </li>
-            <li className="p-2 icon-svg">
-              <a
-                href="mailto:braedenturner22@gmail.com"
-                target="_top"
-                rel="noopener noreferrer"
-              >
-                Mail
-              </a>
-            </li>
           </ul>
         </div>
 
         {/* Desktop Navigation (visible on medium and larger screens) */}
         <ul className="hidden md:flex absolute top-0 right-0 items-center space-x-4 3xl:space-x-10 md:pr-4 md:pt-4 lg:pr-8 lg:pt-8 3xl:pr-15 3xl:pt-15 z-30">
-          <li className="icon-svg 3xl:text-3xl font-serif">Resume</li>
+          <li className="icon-svg 3xl:text-3xl font-serif">
+            <a
+              href="https://drive.google.com/file/d/1D2MaomzHxMg6LV5T4SH9b0gkToOInnOX/view?usp=sharing"
+              target="#"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
+          </li>
           <li>
             <a
               href="mailto:braedenturner22@gmail.com"
