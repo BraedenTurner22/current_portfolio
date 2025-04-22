@@ -83,7 +83,7 @@ const Experiences = () => {
             {relevantCoursework.map((course, idx) => (
               <span
                 key={idx}
-                className="text-sm bg-gradient-to-r from-blue-300/50 to-blue-600/50 px-2 py-1 rounded-full text-orange-200"
+                className="text-sm bg-gradient-to-r from-orange-300 to-orange-500 px-2 py-1 rounded-full text-blue-950"
               >
                 {course}
               </span>
