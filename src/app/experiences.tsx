@@ -13,12 +13,19 @@ const Experiences = () => {
     description: string;
     tools_and_skills: string[];
   };
+
   const experiences: Experience[] = Object.values(experiencesData.experiences);
 
+  const relevantCoursework: string[] = [
+    "Linear Algebra",
+    "Discrete Mathematics",
+    "Object-Oriented Programming",
+    "Data Structures",
+    "Computer Systems and Networks",
+  ];
+
   return (
-    // 1. make this container `relative` so its children absolutely position against it
     <div className="relative w-full flex justify-center mt-20 pb-16">
-      {/* 2. constrains your text to max-w-6xl, centered via the parent’s flex */}
       <div className="w-full max-w-6xl flex flex-col">
         <h2 className="text-2xl lg:text-4xl font-bold text-orange-300 text-center font-serif pb-5">
           Experience
@@ -66,19 +73,36 @@ const Experiences = () => {
             </div>
           ))}
         </div>
+
+        {/* Relevant Coursework Section - heading above list */}
+        <div className="mt-8 flex flex-col items-center justify-center gap-4 px-4">
+          <h3 className="text-xl font-semibold text-orange-300 font-serif">
+            Relevant Coursework:
+          </h3>
+          <div className="flex flex-wrap gap-2 justify-center">
+            {relevantCoursework.map((course, idx) => (
+              <span
+                key={idx}
+                className="text-sm bg-gradient-to-r from-blue-300/50 to-blue-600/50 px-2 py-1 rounded-full text-orange-200"
+              >
+                {course}
+              </span>
+            ))}
+          </div>
+        </div>
       </div>
 
-      {/* 3. this absolute div now lives inside the `.relative`, so its bottom:0 is the component’s bottom */}
+      {/* Gradient overlay at bottom */}
       <div
         className="
-          absolute 
-          bottom-0 
-          left-0 
-          w-full      /* spans the full viewport width because parent is w-full */
-          h-50        /* adjust to taste */
-          bg-gradient-to-t 
+          absolute
+          bottom-0
+          left-0
+          w-full
+          h-50
+          bg-gradient-to-t
           from-blue-300/30
-          to-transparent 
+          to-transparent
           pointer-events-none
         "
       />
