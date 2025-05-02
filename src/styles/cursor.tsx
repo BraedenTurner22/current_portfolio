@@ -64,7 +64,7 @@ export default function Cursor() {
         /* scale: shrink when hovering a pointer */
         ${hovered ? "scale-0" : "scale-100"}
 
-        hidden xl:block
+        hidden md:block
       `}
       style={{
         left: displayPos.x,
