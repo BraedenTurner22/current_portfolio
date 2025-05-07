@@ -215,6 +215,7 @@ const Mountains = () => {
           fill
           sizes="100vw"
           className="object-cover z-20"
+          priority
         />
 
         <div className="absolute bottom-3 left-0 w-full h-[40%] bg-gradient-to-t from-blue-900 to-transparent z-10" />
@@ -240,7 +241,6 @@ const Mountains = () => {
             fill
             sizes="20vw"
             className="object-contain z-30"
-            unoptimized
           />
         </div>
       </div>
