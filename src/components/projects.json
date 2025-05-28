@@ -1,5 +1,13 @@
 {
   "projects": {
+    "internship_emailer_script": {
+      "title": "Internship Emailer Script",
+      "image_url": "/projects/Internship_Emailer.png",
+      "description": "A script that fetches and parses a README before emailing me a list of computer science internship opportunities. I set up a cron job to continually check for new opportunities.",
+      "date": "2025",
+      "tools": ["Python", "Cron"],
+      "github_url": "https://github.com/BraedenTurner22/internship_emailer.git"
+    },
     "poker_game_engine": {
       "title": "Poker Game Engine",
       "image_url": "/projects/Poker_Table.png",

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "../styles/globals.css";
+import { Suspense } from "react";
+
 export const metadata: Metadata = {
   title: "Braeden Turner",
   description: "Welcome to my portfolio!",
@@ -10,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body>{children}</body>
