@@ -11,7 +11,8 @@
     "poker_game_engine": {
       "title": "Poker Game Engine",
       "image_url": "/projects/Poker_Table.png",
-      "description": "Currently designing an entire poker engine in Java. Plan to implement frontend and Postgresql database for live, interactive gameplay.",
+      "description": "A full scale no-limit Texas Hold'em poker engine in Java. Designed with Spring Boot, but never actually got around to finishing/deploying. I plan in the future to pick it back up!",
+
       "date": "2025",
       "tools": ["Java", "Spring Boot"],
       "github_url": "https://github.com/BraedenTurner22/Poker.git"
