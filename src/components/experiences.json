@@ -1,6 +1,14 @@
 {
   "experiences": {
-    "build1_umass": {
+    "datamapt": {
+      "image_url": "/experiences/DataMAPt.png",
+      "organization": "DataMAPt",
+      "role": "Software Engineering Intern",
+      "date": "June 2025 - Present",
+      "description": "Developing a modularized testing suite to test appication's security and integrity.",
+      "tools_and_skills": ["Selenium", "Java", "Git", "Agile Development"]
+    },
+    "build_umass": {
       "image_url": "/experiences/BUILD_UMass.jpeg",
       "organization": "BUILD UMass",
       "role": "Software Developer",
