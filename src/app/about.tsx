@@ -24,7 +24,7 @@ const About = () => {
           Hey there! I'm Braeden.
           <br />
           <br />
-          I am currently a first-year studying computer science at the
+          I am currently a second-year studying computer science at the
           University of Massachusetts—Amherst. I love programming and enjoy
           using it as a creative medium for other interests.
           <br />
