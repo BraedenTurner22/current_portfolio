@@ -63,9 +63,9 @@ const Mountains = () => {
           }`}
         >
           <ul className="md:hidden flex flex-col w-full bg-gradient-to-b from-black to-background rounded-lg text-center font-serif">
-            <li className="p-2 icon-svg">
+            {/* <li className="p-2 icon-svg">
               <a href="/thoughts">My Thoughts</a>
-            </li>
+            </li> */}
             {/* <li className="p-2 icon-svg">
               <a
                 href="/mountains/Braeden_Turner_Resume.pdf"
@@ -116,9 +116,9 @@ const Mountains = () => {
 
         {/* Desktop Navigation (visible on medium and larger screens) */}
         <ul className="hidden md:flex absolute top-0 right-0 items-center space-x-4 3xl:space-x-10 md:pr-4 md:pt-4 lg:pr-8 lg:pt-8 3xl:pr-15 3xl:pt-15 z-30">
-          <li className="icon-svg 3xl:text-3xl font-serif">
+          {/* <li className="icon-svg 3xl:text-3xl font-serif">
             <Link href="/thoughts">My Thoughts</Link>
-          </li>
+          </li> */}
           {/* <li className="icon-svg 3xl:text-3xl font-serif">
             <a
               href="/mountains/Braeden_Turner_Resume.pdf"
