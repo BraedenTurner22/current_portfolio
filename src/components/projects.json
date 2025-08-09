@@ -3,7 +3,7 @@
     "computer_vision_streamliner": {
       "title": "Computer Vision Streamliner",
       "image_url": "/projects/CV_Streamliner.png",
-      "description": "A website designed to streamline the image label process for computer vision models. Allows users to upload, label, and download YOLOv8 friendly coordinates for up to 5000 images ",
+      "description": "A website designed to streamline the image label process for computer vision models. Allows users to upload, label, and download YOLOv8 friendly coordinates for up to 5000 images.",
       "date": "2025",
       "tools": ["Angular", "Typescript", "AWS (S3)", "Supabase"],
       "project_url": "https://www.cvstreamliner.com/"
