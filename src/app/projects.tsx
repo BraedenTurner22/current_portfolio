@@ -11,7 +11,7 @@ const Projects = () => {
     description: string;
     date: string;
     tools: string[];
-    github_url: string;
+    github_url?: string;
     project_url?: string;
   };
 
