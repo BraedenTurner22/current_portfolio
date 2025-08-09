@@ -11,7 +11,7 @@
     "poker_game_engine": {
       "title": "Poker Game Engine",
       "image_url": "/projects/Poker_Table.png",
-      "description": "A full scale no-limit Texas Hold'em poker engine in Java. Designed with Spring Boot, but never actually got around to finishing/deploying. I plan in the future to pick it back up!",
+      "description": "A full scale no-limit Texas Hold'em poker engine in Java. Designed with Spring Boot, but never actually got around to finishing/deploying. I plan to pick it back up in the future!",
 
       "date": "2025",
       "tools": ["Java", "Spring Boot"],
