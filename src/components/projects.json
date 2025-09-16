@@ -1,7 +1,7 @@
 {
   "projects": {
     "triage_ai": {
-      "title": "Triage Ai",
+      "title": "Triage AI (HackMIT 2025)",
       "image_url": "/projects/Triage_AI.png",
       "description": "A comprehensive medical triage application that leverages artificial intelligence to streamline patient triage assessments, reduce wait times, and improve nurse workflows.",
       "date": "2025",
