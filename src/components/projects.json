@@ -1,5 +1,13 @@
 {
   "projects": {
+    "triage_ai": {
+      "title": "Triage Ai",
+      "image_url": "/projects/Triage_AI.png",
+      "description": "A comprehensive medical triage application that leverages artificial intelligence to streamline patient triage assessments, reduce wait times, and improve nurse workflows.",
+      "date": "2025",
+      "tools": ["React", "Typescript", "Supabase", "Computer Vision"],
+      "github_url": "https://github.com/BraedenTurner22/triage-ai-hackmit"
+    },
     "computer_vision_streamliner": {
       "title": "Computer Vision Streamliner",
       "image_url": "/projects/CV_Streamliner.png",
