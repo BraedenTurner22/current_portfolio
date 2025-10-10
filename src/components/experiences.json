@@ -1,5 +1,13 @@
 {
   "experiences": {
+    "ersp": {
+      "image_url": "/experiences/ERSP.png",
+      "organization": "Central for Personalized Health Monitoring",
+      "role": "Undergraduate Researcher",
+      "date": "August 2025 - Current",
+      "description": "Designing novel health tracking applications for improved wellness insights.",
+      "tools_and_skills": ["Python", "Matplotlib", "Health-tech", "Wearables"]
+    },
     "datamapt": {
       "image_url": "/experiences/DataMAPt.png",
       "organization": "DataMAPt",
@@ -13,7 +21,7 @@
       "organization": "BUILD UMass",
       "role": "Software Developer",
       "date": "January 2025 - Present",
-      "description": "Accepted into UMass's competitive pro bono software club. Collaborated with team of 6 to divide and streamline development tasks, using git for version control. Personally reduced codebase size by 15%, standardized dependency versions, and enhanced UI.",
+      "description": "Leading team of 6 in Agile development for UMass's premier pro-bono website. Leading web design, applicant experience, and internal tool for finding clients.",
       "tools_and_skills": ["Collaboration", "Communication", "Git", "Next.js"]
     }
   }

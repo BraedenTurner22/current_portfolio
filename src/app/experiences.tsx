@@ -22,6 +22,11 @@ const Experiences = () => {
     "Object-Oriented Programming",
     "Data Structures",
     "Computer Systems and Networks",
+    "Programming Methodologies",
+    "Reasoning Under Uncertainty",
+    "Database Management",
+    "Mobile Health Sensing",
+    "Computer Networks and Security",
   ];
 
   return (
