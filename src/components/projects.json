@@ -49,24 +49,6 @@
       "date": "2024",
       "tools": ["Python", "TensorFlow", "YOLOv8", "OpenCV"],
       "github_url": "https://github.com/BraedenTurner22/blackjack_card_counter.git"
-    },
-    "build_website": {
-      "title": "BUILD UMass Website",
-      "image_url": "/projects/BUILD_Website.png",
-      "description": "Website developer for UMass's pro bono software club. Personally did a lot of codebase refactoring by removing obsolete code, standardizing dependencies, and improving UI.",
-      "date": "2024",
-      "tools": ["React", "Next.js", "Javascript", "Git"],
-      "github_url": "https://github.com/build-umass/BUILD-Website",
-      "project_url": "https://buildumass.com/"
-    },
-    "personal_portfolio": {
-      "title": "Personal Portfolio",
-      "image_url": "/projects/Personal_Portfolio.png",
-      "description": "An updated version of my personal website. Originally, I had a dynamic display of my cooking videos on YouTube, but I got tired of Heroku Dynos fees.",
-      "date": "2025",
-      "tools": ["Typescript", "Next.js", "HTML/CSS", "Vercel"],
-      "github_url": "https://github.com/BraedenTurner22/current_portfolio.git",
-      "project_url": "https://braedenturner.com/"
     }
   }
 }
