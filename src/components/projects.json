@@ -1,5 +1,13 @@
 {
   "projects": {
+    "vault": {
+      "title": "Vault",
+      "image_url": "/projects/Vault.png",
+      "description": "A mobile application that blocks specific apps based on users' geofenced locations. Currently on waitlist.",
+      "date": "2025",
+      "tools": ["Swift", "MapKit", "Screen Time API"],
+      "project_url": "https://www.getvault.info/"
+    },
     "triage_ai": {
       "title": "Triage AI (HackMIT 2025)",
       "image_url": "/projects/Triage_AI.png",
