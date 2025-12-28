@@ -1,19 +1,11 @@
 {
   "experiences": {
-    "ersp": {
-      "image_url": "/experiences/ERSP.png",
-      "organization": "Central for Personalized Health Monitoring",
-      "role": "Undergraduate Researcher",
-      "date": "August 2025 - Current",
-      "description": "Designing novel health tracking applications for improved wellness insights.",
-      "tools_and_skills": ["Python", "Matplotlib", "Health-tech", "Wearables"]
-    },
     "datamapt": {
       "image_url": "/experiences/DataMAPt.png",
       "organization": "DataMAPt",
       "role": "Software Engineering Intern",
       "date": "May 2025 - August 2025",
-      "description": "Developing a modularized testing suite to test appication's security and integrity.",
+      "description": "Developed a modularized testing suite to test appication's security and integrity.",
       "tools_and_skills": ["Selenium", "Java", "Git", "Agile Development"]
     },
     "build_umass": {
